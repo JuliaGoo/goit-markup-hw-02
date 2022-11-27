@@ -212,7 +212,7 @@ background-color:#2F303A;
     letter-spacing: 0.03em;
     border-radius: 4px;
     color: var(--primary-text-color);
-    background-color: transparent; 
+    background-color: var(--secondary-background-color) 
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
