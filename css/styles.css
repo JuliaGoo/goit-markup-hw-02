@@ -3,7 +3,7 @@
     --secondary-text-color: #757575;
     --white-color:#FFFFFF;
     --blue-color:#2196F3; 
-    --main-background-color: #ffff; 
+    --main-background-color:#FFFFFF; 
     --secondary-background-color: #F5F4FA;
     --footer-color: #2F303A;   
 }
@@ -11,6 +11,7 @@
 a{
     text-decoration: none;
 }
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -44,7 +45,7 @@ a{
     letter-spacing: 0.03em;
 }
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 700;
@@ -53,7 +54,7 @@ a{
     letter-spacing: 0.03em;
 }
 .logo-footer {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
         color: var(--white-color);
         font-style: normal;
         font-weight: 700;
@@ -67,25 +68,31 @@ button {
 }
 
 .nav-link {
+    font-family: inherit;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
-.nav-link :hover,
-.nav-link :focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--blue-color); 
 }
 
 .contacts-link {
+    font-family: inherit;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 
-.contacts-link :hover,
-.contacts-link :focus {
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--blue-color);
+}
+
+.current {
     color: var(--blue-color);
 }
 
@@ -93,23 +100,29 @@ footer {
 background-color:#2F303A;
 }
 .address-link {
+    font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
-    color: var(--white-color)
+    color: var(--white-color);
+}
+.address-link:hover,
+.address-link:focus{
+    color: var(--blue-color);
 }
 .footer-contact {
+    font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-contact :hover,
-.footer-contact :focus {
+.footer-contact:hover,
+.footer-contact:focus {
     color: var(--blue-color);
 }
 /*----Studio styles---*/ 
@@ -120,7 +133,7 @@ background-color:#2F303A;
 .main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -131,40 +144,40 @@ background-color:#2F303A;
     font-family: inherit; 
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border-radius: 4px;
 }
-.order-button :hover,
-.order-button :focus {
+.order-button:hover,
+.order-button:focus {
     background-color: blue;
 }
 .secondary-title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .adv-title{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
 }
 .adv-subtitle {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 .team-section {
-    background-color: var(--secondary-background-color)
+    background-color: var(--secondary-background-color);
 }
 .team-item {
     background-color: var(--main-background-color);
@@ -172,16 +185,53 @@ background-color:#2F303A;
 .team-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,26;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 .team-subtitle {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,19;
     text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/*--Portfolio styles--*/
+
+.portfolio {
+    background-color: var(--main-background-color); 
+}
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    color: var(--primary-text-color);
+    background-color: transparent; 
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+.product-item {
+    background-color: var(--main-background-color);
+}
+.product-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.product-subtitle {
+    font-size: 16px;
+    line-height: 1,87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
