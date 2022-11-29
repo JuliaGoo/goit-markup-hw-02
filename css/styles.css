@@ -27,7 +27,6 @@ a{
  body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--main-background-color);
 }
@@ -50,17 +49,17 @@ a{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
-        color: var(--white-color);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1, 19;
-        letter-spacing: 0.03em;
+    color: var(--white-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 button {
     cursor: pointer;
@@ -104,7 +103,7 @@ background-color:#2F303A;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
@@ -117,7 +116,7 @@ background-color:#2F303A;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -133,7 +132,7 @@ background-color:#2F303A;
 .main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -144,7 +143,7 @@ background-color:#2F303A;
     font-family: inherit; 
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -156,23 +155,21 @@ background-color:#2F303A;
 }
 .secondary-title {
     font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .adv-title{
-    font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
 }
 .adv-subtitle {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -185,14 +182,14 @@ background-color:#2F303A;
 .team-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,26;
+    line-height: 1.26;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 .team-subtitle {
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
@@ -207,7 +204,7 @@ background-color:#2F303A;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
@@ -223,7 +220,6 @@ background-color:#2F303A;
     background-color: var(--main-background-color);
 }
 .product-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -231,7 +227,7 @@ background-color:#2F303A;
 }
 .product-subtitle {
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
